@@ -47,7 +47,7 @@ func readFile(filename string, serial string) {
 	if err != nil {
 		fmt.Println("error:", err)
 	}
-	// check each employee struct for the one matching serial from command line flag
+	// check each employee struct for the one matching serial from command line flag and show it
 	for i := 0; i < (len(employees)); i++ {
 		if employees[i].Serial == serial {
 			employees[i].show()
