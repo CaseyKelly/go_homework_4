@@ -3,9 +3,9 @@
 		"name":"Ann",
 		"serial":"123456",
 		"age":22,
-		"address":"123 Main Street" 
+		"address":"123 Main Street"
 	},
-	{ 
+	{
 		"name":"Bob",
 		"serial":"847622",
 		"age":34,
