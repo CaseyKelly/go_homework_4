@@ -7,7 +7,7 @@ import (
 
 func TestHomework4(t *testing.T) {
 
-	Convey("Given the serial number of an employee", t, func() {
+	Convey("Given the serial number and filename of an employee", t, func() {
 
 		Convey("it should return the name of the employee", nil)
 
